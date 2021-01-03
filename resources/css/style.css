@@ -1,46 +1,30 @@
 body {
     background-color: black;
     color: white;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Header */
+.cta {
+    color: aquamarine;
+    font-size: 16px;
+}
 
-h1.header-title {
-    text-align: center;
+h1 {
     font-weight: normal;
     font-size: 50px;
 }
 
-a {
-    text-align: center;
-    color: aquamarine;
-}
-
-/* Main */
-.center {
-    margin: 0 auto;
-    align-content: center;
-}
-
-.section-title {
-    text-align: center;
-    font-weight: 300;
+h2 {
     font-size: 42px;
+    font-weight: 300;
 }
 
-.subs {
+p {
     font-size: 21px;
     color: gray;
-    text-align: center;
 }
 
-.image, .video {
-    text-align: center;
-}
-
-/* Footer */
-.credit {
-    color: gray;
+.footer {
     text-align: right;
 }
